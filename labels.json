@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Assignee1",
+    "color": "d5ecc2",
+    "description": "담당자1"
+  },
+  {
+    "name": "Assignee2",
+    "color": "ffd3b4",
+    "description": "담당자2"
+  },
+  {
+    "name": "Assignee3",
+    "color": "dbe6fd", 
+    "description": "담당자3"
+  },
+  {
+    "name": "bug",
+    "color": "ee0701",
+    "description": "버그입니다."
+  },
+  {
+    "name": "chore",
+    "color": "8c001a",
+    "description": "세팅 관련입니다."
+  },
+  {
+    "name": "cleanup",
+    "color": "fef2c0",
+    "description": "코드를 더 깔끔하게 만들기만 하고, 코드 작동 방식이나 출력에 대한 부분을 변경하지 않습니다."
+  },
+  {
+    "name": "docs",
+    "color": "d4c5f9",
+    "description": "문서만 변경됩니다."
+  },
+  {
+    "name": "feat",
+    "color": "84b6eb",
+    "description": "구현·개선 사항에 관련된 내용입니다."
+  },
+  {
+    "name": "fix",
+    "color": "de5b7b",
+    "description": "버그를 수정합니다."
+  },
+  {
+    "name": "help wanted",
+    "color": "0e8a16",
+    "description": "누구나 처리할 수 있는 이슈를 나타냅니다."
+  },
+  {
+    "name": "question",
+    "color": "cc317c",
+    "description": "질문만 있는 이슈, 질문이 해결되면 이슈를 종료합니다."
+  },
+  {
+    "name": "refactoring",
+    "color": "fbca04",
+    "description": "코드가 내부적으로 작동하는 방식을 변경합니다. cleanup과는 다릅니다."
+  },
+  {
+    "name": "test",
+    "color": "bfe5bf",
+    "description": "테스트 코드만 변경됩니다."
+  }
+]
