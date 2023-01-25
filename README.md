@@ -11,6 +11,8 @@
 
 
 ## 커밋 컨벤션
+ - regex
+   - ^(🎨|🐛|💄|♻️|🗑️|🚧|🧪)(feat|fix|style|refactor|cleanup|chore|test)\s:\s.+
  - 유다시티 커밋컨벤션
       ```HTML
       <type>(<scope>): <subject> - Subject line
@@ -29,3 +31,4 @@
          2. 전후를 Before : scope: { ~~ } After : scope: { ~~~ } 와 같이 상세하게 명시한다.
          3. 처리 완료된, 즉 close 된 이슈에 대해서는 `Closes #123, #124` 로 표기한다.
       ```
+  .
