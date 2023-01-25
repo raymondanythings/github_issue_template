@@ -1,27 +1,24 @@
-## PR Checklist
-Please check if your PR fulfills the following requirements:
+## PR 체크리스트
 
-- [ ] The commit message follows our guidelines: https://github.com/nestjs/nest/blob/master/CONTRIBUTING.md
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+<!-- - [ ] The commit message follows our guidelines: https://github.com/nestjs/nest/blob/master/CONTRIBUTING.md -->
+<!-- - [ ] Tests for the changes have been added (for bug fixes / features) -->
+- [ ] 코드 스타일 가이드 규칙을 준수했어요.
 
-
-## PR Type
-What kind of change does this PR introduce?
+## PR 타입
+설명하실 변경사항은 어떤종류인가요?
 
 <!-- Please check the one that applies to this PR using "x". -->
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Other... Please describe:
+- [ ] 버그픽스
+- [ ] 기능추가
+- [ ] 코드스타일 업데이트
+- [ ] 기타
+<!-- - [ ] Refactoring (no functional changes, no api changes) -->
+<!-- - [ ] Build related changes -->
+<!-- - [ ] CI related changes -->
 
-## What is the current behavior?
+## 이슈번호 : ___
 <!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
 
-Issue Number: N/A
 
 
 ## What is the new behavior?
