@@ -1,0 +1,24 @@
+# Harry's commit message template
+# 제목은 대문자로 시작합니다.
+# 본문과 푸터는 선택 사항 입니다.
+#######제목#######
+
+#######본문#######
+
+#######푸터#######
+
+##################
+# 🎨fix : 기능 추가 및 개선
+# 🐛fix : 오류 수정
+# 💄style : 코드의 수정이 없는 문자포멧팅
+# ♻️refactor : 
+# 🗑️cleanup : 보완
+# 🚧chore : 구현
+
+##################
+
+# feat: A new feature
+# fix: A bug fix
+# style: Formatting, missing semi colons, etc; no code change
+# refactor: Refactoring production code
+# chore: Updating build tasks, package manager configs, etc; no production code change
