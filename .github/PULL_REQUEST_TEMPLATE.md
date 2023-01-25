@@ -1,34 +1,25 @@
 ## PR 체크리스트
-
-<!-- - [ ] The commit message follows our guidelines: https://github.com/nestjs/nest/blob/master/CONTRIBUTING.md -->
-<!-- - [ ] Tests for the changes have been added (for bug fixes / features) -->
 - [ ] 코드 스타일 가이드 규칙을 준수했어요.
 
 ## PR 타입
-설명하실 변경사항은 어떤종류인가요?
+설명하실 변경 사항은 어떤 종류인가요?
 
-<!-- Please check the one that applies to this PR using "x". -->
-- [ ] 버그픽스
-- [ ] 기능추가
-- [ ] 코드스타일 업데이트
+<!-- 해당하는 한가지 타입에 체크해 주세요. -->
+- [ ] 버그 수정
+- [ ] 기능 추가
+- [ ] 코드 스타일 업데이트
 - [ ] 기타
-<!-- - [ ] Refactoring (no functional changes, no api changes) -->
-<!-- - [ ] Build related changes -->
-<!-- - [ ] CI related changes -->
 
-## 이슈번호 : ___
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+<!-- 빈칸에 이슈번호를 입력해 주세요. 이슈번호를 모를 경우 추후 추가 가능하며, 그냥 넘어가셔도 좋습니다. -->
+## 이슈 번호 : ________
 
 
-
-## What is the new behavior?
-
-
-## Does this PR introduce a breaking change?
+## 해당 PR이 프로젝트에 큰 영향이 있나요?
+<!-- 해당하는 한가지 타입에 체크해 주세요. -->
 - [ ] Yes
 - [ ] No
 
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+## 작업 내용
+- 작업 내용을 간략하게 작성해 주세요.
 
-
-## Other information
+### 추가 설명
