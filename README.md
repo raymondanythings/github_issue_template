@@ -2,13 +2,19 @@
 
 
 ## 레포지토리 초기 세팅
-1. 라벨 설정하기
-   - YOUR_GH_TOKEN : 깃허브 Personal access token [깃허브 토큰발급 바로가기](https://github.com/settings/apps)
-   - YOUR_REPOSITORY : 해당하는 레포지토리 경로 ex) myname/myProject
-    ```bash
-    npx github-label-sync --access-token <<YOUR_GH_TOKEN>> --labels ./labels.json <<YOUR_REPOSITORY>>
-    ```
-
+---
+   1. 라벨 설정하기
+      - YOUR_GH_TOKEN : 깃허브 Personal access token [깃허브 토큰발급 바로가기](https://github.com/settings/apps)
+      - YOUR_REPOSITORY : 해당하는 레포지토리 경로 ex) myname/myProject
+      ```bash
+      npx github-label-sync --access-token <<YOUR_GH_TOKEN>> --labels ./labels.json <<YOUR_REPOSITORY>>
+      ```
+   2. 커밋 템플릿 적용하기
+      ```bash
+      git config --global core.editor "code --wait"   # 깃 에디터를 vscode로 변경
+      git config --global commit.template <.gitmessage.txt 경로>
+      ```
+---
 
 ## 커밋 컨벤션
  - 템플릿
@@ -42,3 +48,5 @@
          3. 처리 완료된, 즉 close 된 이슈에 대해서는 `Closes #123, #124` 로 표기한다.
       ```
   .
+## 리뷰 코멘트 컨벤션
+   - 
