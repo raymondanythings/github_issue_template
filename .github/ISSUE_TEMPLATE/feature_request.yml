@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ## :warning: We use GitHub Issues to track bug reports, feature requests and regressions
- 
+
         If you are not sure that your issue is a bug, you could:
 
         - use our [Discord community](https://discord.gg/NestJS)
@@ -20,8 +20,8 @@ body:
       label: "Is there an existing issue that is already proposing this?"
       description: "Please search [here](./?q=is%3Aissue) to see if an issue already exists for the feature you are requesting"
       options:
-      - label: "I have searched the existing issues"
-        required: true
+        - label: "I have searched the existing issues"
+          required: true
 
   - type: textarea
     validations:

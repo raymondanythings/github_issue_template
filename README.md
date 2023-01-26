@@ -10,10 +10,10 @@
       npx github-label-sync --access-token <<YOUR_GH_TOKEN>> --labels ./labels.json <<YOUR_REPOSITORY>>
       ```
    2. 커밋 템플릿 적용하기
-   ```bash
-   git config --global core.editor "code --wait"   # 깃 에디터를 vscode로 변경
-   git config --global commit.template <.gitmessage.txt 경로>
-   ```
+      ```bash
+      git config --global core.editor "code --wait"   # 깃 에디터를 vscode로 변경
+      git config --global commit.template <.gitmessage.txt 경로>
+      ```
 ---
 
 ## 커밋 컨벤션
