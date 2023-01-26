@@ -11,6 +11,16 @@
 
 
 ## 커밋 컨벤션
+ - 템플릿
+   ```
+   🎨feat : 기능 추가 및 개선
+   🐛fix : 오류 수정
+   💄style : 코드의 수정이 없는 문자포멧팅
+   🧪test : 코드 및 기능 테스트
+   ♻️refactor : 
+   🗑️cleanup : 보완
+   🚧chore : 구현
+   ```
  - regex
    - ^(🎨|🐛|💄|♻️|🗑️|🚧|🧪)(feat|fix|style|refactor|cleanup|chore|test)\s:\s.+
  - 유다시티 커밋컨벤션
